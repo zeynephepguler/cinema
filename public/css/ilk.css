@@ -46,12 +46,14 @@ li a:hover:not(.active) {
 }
 
 .üst{
-  background-color: #62d751;
+  background-color: #df00005d;
   height: 75px;
-  width: %100;
+  width: 100%;
   color: white;
   padding: 5px;
-  }
+  
+
+}
 
 input[type=button] {
 

@@ -5,7 +5,7 @@
 <table>
   <tr>
     <th>
-        <img src="{{asset('logorgb.png')}}" height="150px" width="150px" >
+        <img src="{{asset('koltuk.png')}}" height="150px" width="150px" >
 
     </th>
     <th>

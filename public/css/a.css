@@ -94,3 +94,26 @@ td.tab2{
   background-color: #ffaa56;
   color: white;
 }
+.img:hover{
+border: 2px solid#3e8e41;
+
+
+}
+.img:active{
+  border: 5px solid#3e8e41;
+  
+  
+  }
+img{
+  border: #faded5 solid 2px;
+  box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.404);
+  
+}
+.bilgi{
+  background-color: rgba(189, 189, 189, 0.192) ;
+  padding: 5%;
+  box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.404);
+  border-radius: 5%;
+  
+  
+}
