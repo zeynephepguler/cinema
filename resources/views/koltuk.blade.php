@@ -12,57 +12,54 @@
 </tr>
 
 <tr >
-<td><h1> A</h1></td><td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" select" >
-</td><td><img class="img" id="a2"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a3"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><h1> A</h1></td><td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" select" ></td>
+<td><img class="img" id="a2"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="a3"src="{{asset('koltuk.png')}}" height="50px" width="50px" onclick="style="background: black""></td>
+<td><img class="img" id="a4"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="a4"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="a5"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="a6"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="a7"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="a8"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="a9"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
 
 </tr>
 
 <tr>
-<td><h1> B</h1></td><td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" select" ></td>
-<td><img class="img" id="a2"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a3"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-
+<td><h1> B</h1></td><td><img class="img" id="b1"src="{{asset('koltuk.png')}}" height="50px" width="50px" select" ></td>
+<td><img class="img" id="b2"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="b3"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="b4"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="b4"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="b5"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="b6"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="b7"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="b8"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="b9"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
 <tr>
-<td><h1> C</h1></td><td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" select" ></td>
-<td><img class="img" id="a2"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a3"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-
+<td><h1> C</h1></td><td><img class="img" id="c1"src="{{asset('koltuk.png')}}" height="50px" width="50px" select" ></td>
+<td><img class="img" id="c2"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="c3"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="c4"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="c4"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="c5"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="c6"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="c7"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="c8"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="c9"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
 </tr>
 <tr>
 
-<td><h1> D</h1></td><td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" select" ></td>
-<td><img class="img" id="a2"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a3"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-<td><img class="img" id="a1"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
-
+<td><h1> D</h1></td><td><img class="img" id="d1"src="{{asset('koltuk.png')}}" height="50px" width="50px" select" ></td>
+<td><img class="img" id="d2"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="d3"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="d4"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="d4"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="d5"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="d6"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="d7"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="d8"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
+<td><img class="img" id="d9"src="{{asset('koltuk.png')}}" height="50px" width="50px" ></td>
 </tr>
 <table><tr>
 <td><button class="button">12:00</button></td>
