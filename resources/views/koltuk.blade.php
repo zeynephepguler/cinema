@@ -1,7 +1,9 @@
 
 <link rel="stylesheet" href="{{ asset('css/a.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ asset('css/baglanti.css') }}" type="text/css">
+<body class="üst">
 <div class ="bas"><center><h1>X SiNEMA</h1></center></div>
-<div>
+<div >
     <center>
 <dialog id="koltuksec" style="width:60%; background-color:rgba(255, 255, 255, 0.932); border:1px dotted black; box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.404);border-radius: 8%;"  
 >
@@ -181,8 +183,8 @@
 
 </div>
 </center>
-
 </div>
+</body>
 <script type="text/JavaScript">
 (function() {
     var dialog = document.getElementById('koltuksec');

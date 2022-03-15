@@ -12,6 +12,6 @@
         <tr> <td> Kullanıcı Adı: </td><th> <input type="text" name="" value=""> </th></tr>
         <tr> <td >Şifre: </td><th> <input type="text" name="" value=""> </th></tr>
       </table><br>
-      <button type="button" name="btn_giris" class="btn_giris"> GİRİŞ YAP</button>
+      <button type="button" name="btn_giris" class="btn_giris" onClick="location='/k'" > GİRİŞ YAP</button>
   </body>
 </html>

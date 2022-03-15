@@ -17,10 +17,7 @@ Route::get('/', function()
   return view('giris');
 })->name('cıkıs');
 
-Route::get('ogrencigiris', function()
-{
-  return view('ogrencigiris');
-});
+
 Route::get('/k', function()
 {
   return view('koltuk');
