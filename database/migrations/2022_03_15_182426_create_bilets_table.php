@@ -14,8 +14,11 @@ return new class extends Migration
     public function up()
     {
         Schema::create('bilets', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id('biletID')-> unique();
+            $table->string('salon') -> nullable();
+            $table->string('koltuk') -> nullable();
+            $table->time('saat') -> nullable();
+            $table->string('ucret') -> nullable();
         });
     }
 

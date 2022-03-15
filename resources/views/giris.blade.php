@@ -9,8 +9,8 @@
     <div class="alan"> <center>
       <h1>X-SİNEMA SİSTEMİ GİRİŞ PANALİ</h1>
       <table>
-        <tr> <td> Kullanıcı Adı: </td><th> <input type="text" name="" value=""> </th></tr>
-        <tr> <td >Şifre: </td><th> <input type="text" name="" value=""> </th></tr>
+        <tr> <td> Kullanıcı Adı: </td><th> <input type="text" name="adi" value=""> </th></tr>
+        <tr> <td >Şifre: </td><th> <input type="text" name="sifre" value=""> </th></tr>
       </table><br>
       <button type="button" name="btn_giris" class="btn_giris" onClick="location='/k'" > GİRİŞ YAP</button>
   </body>
