@@ -14,8 +14,13 @@ return new class extends Migration
     public function up()
     {
         Schema::create('musteris', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id()->unique();
+            $table->string('ad');
+            $table->string('soyad');
+            $table->string('email');
+            $table->string('filmid');
+            $table->string('biletid');
+            $table->rememberToken();        
         });
     }
 
