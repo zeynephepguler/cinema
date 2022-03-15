@@ -107,6 +107,7 @@ border: 2px solid#3e8e41;
 img{
   border: #faded5 solid 2px;
   box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.404);
+
   
 }
 .bilgi{
@@ -116,4 +117,10 @@ img{
   border-radius: 5%;
   
   
+}
+.bas{
+  background-color: #ff0000ab;
+  padding: 5%;
+  box-shadow:0 0 6px 4px rgba(0, 0, 0, 0.404); ;
+  border-radius: 5%;
 }

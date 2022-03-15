@@ -49,7 +49,7 @@ li a:hover:not(.active) {
   background-color: #df00005d;
   height: 75px;
   width: 100%;
-  color: white;
+  color: rgba(255, 255, 255, 0.932);
   padding: 5px;
   
 
