@@ -19,7 +19,11 @@
     </ul>
 </div>
 
-
+<div>
+    <form action='/danisanekle' method='post'>
+    {{ csrf_field() }}
+    </form>
+</div>
     
 </body>
 </html>

@@ -72,4 +72,20 @@ class kullan extends Controller
         $filmadi=film::where('id','=',$id)->get('filmadi');
         return view('koltuk',$filmadi);
     }
+
+    public function ekle()
+    {
+        return view('filmekle');
+    }
+    public function ekle_post(Request $req)
+    {
+        $deger = new Danısmen;
+        $deger->ad = $req->input('ad');
+        $deger->soyad = $req->input('soyad');
+        $deger->unvan = $req->input('unvan');
+        $deger->sifre=Hash::make($req->sifre);
+        $deger->ePosta = $req->input('posta');
+        $deger->save();
+        return redirect('filmekle');
+    }
 }

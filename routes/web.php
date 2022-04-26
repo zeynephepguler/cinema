@@ -43,3 +43,6 @@ Route::post('/giris','App\Http\Controllers\kullan@kontrol')->name('kayitkontrol'
 Route::post('/k','App\Http\Controllers\kullan@alma')->name('musteri');
 Route::get('/k','App\Http\Controllers\kullan@goster')->name('goster');
 Route::get('/k/{id}',[App\Http\Controllers\kullan::class,'filmadi']);
+
+Route::get('filmekle','App\Http\Controllers\kullan@ekle');
+Route::post('filmekle','App\Http\Controllers\kullan@ekle_post');
