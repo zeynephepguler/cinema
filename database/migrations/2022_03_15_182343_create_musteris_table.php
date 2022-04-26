@@ -19,7 +19,12 @@ return new class extends Migration
             $table->string('soyad');
             $table->string('email');
             $table->string('filmid');
-            $table->string('biletid');
+            $table->string('biletid')-> nullable();
+            $table->string('salon') -> nullable();
+            $table->string('koltuk') -> nullable();
+            $table->time('saat') -> nullable();
+            $table->string('ucret') -> nullable();
+            $table->timestamps();
             $table->rememberToken();        
         });
     }

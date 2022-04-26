@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('koltuk') -> nullable();
             $table->time('saat') -> nullable();
             $table->string('ucret') -> nullable();
+            $table->timestamps();
         });
     }
 
