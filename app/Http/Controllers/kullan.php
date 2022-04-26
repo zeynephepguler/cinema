@@ -67,4 +67,9 @@ class kullan extends Controller
        $film=DB::table('films')->get();            
        return view('koltuk',['film'=> $film]);
     }
+    public function filmadi($id)
+    {
+        $filmadi=film::where('id','=',$id)->get('filmadi');
+        return view('koltuk',$filmadi);
+    }
 }
