@@ -111,114 +111,28 @@
 </dialog></form>
 </center>
 
-    <center>
-<table>
-    <tr><td>
-        <table>
-            <tr><th>filmler</th><th>saatler</th></tr>
-    
-            <tr><td><img src="{{asset('ayla.jpg')}}" height="300px" width="200px"></td><td>
-           <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show">İçeriği Göster</button>
-            </div>
-                
-
-
-
-</td>
-
-    
-        </tr>
-        <tr>
-            <td><img src="{{asset('bisi.jpg')}}" height="300px" width="200px"></td>
-            </td><td>  <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show1">İçeriği Göster</button>
-            </div></td>
-            </tr><tr><td><img src="{{asset('canakkale.jpg')}}" height="300px" width="200px"></td>
-            </td><td>  <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show2">İçeriği Göster</button>
-            </div></td>
-            </tr><tr><td><img src="{{asset('convik.jpg')}}" height="300px" width="200px"></td>
-            </td><td>  <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show3">İçeriği Göster</button>
-            </div></td>
-
-                </table></td><td><table>
-                <tr><th>filmler</th><th>saatler</th></tr>
-    
-                <tr><td><img src="{{asset('dilberay.jpg')}}" height="300px" width="200px">
-                </td><td>  <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show4">İçeriği Göster</button>
-            </div></td>
-
-    
-                </tr>
-                <tr><td><img src="{{asset('gonul.jpg')}}" height="300px" width="200px"></td>
-                </td><td> <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show5">İçeriği Göster</button>
-            </div></td>
-                </tr><tr><td><img src="{{asset('hobbit.jpg')}}" height="300px" width="200px"></td>
-                </td><td>  <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show6">İçeriği Göster</button>
-            </div></td>
-                </tr><tr><td><img src="{{asset('joker.jpg')}}" height="300px" width="200px"></td>
-                </td><td>  <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show7">İçeriği Göster</button>
-            </div></td>
-
-                    </td></tr>
-</table>
-
-
-<div >
-     
-    
    
-    
-
 </div>
-</center>
-</div>
+<table>
+    <thead>
+    <tr>
+        <th>Film Adı</th>
+        <th>Yapımcı</th>
+        <th>Yayın Tarihi</th>
+        <th>Saat</th>
+    </tr>
+    </thead>
+    <tbody>@foreach($film as $key => $fil)
+        <tr>
+            
+                <td>{{$fil->filmadi}}</td>
+                <td>{{$fil->yapimci}}</td>
+                <td>{{$fil->yayinTarihi}}</td>
+                <td>{{$fil->saat}}</td>
+            
+        </tr>@endforeach
+    </tbody>
+</tale>
 </body>
 <script type="text/JavaScript">
 (function() {
@@ -265,17 +179,171 @@
             this.style.border="red 5px solid";
 }
 var a1=document.querySelector("#a1");
+
     a1.onclick=function(){
             this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
             this.style.border="red 5px solid";
              
                 }
-var a2=document.querySelector("#a2");
+    var a2=document.querySelector("#a2");
     a2.onclick=function(){
             this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
             this.style.border="red 5px solid";
              
                 }
+        var a3=document.querySelector("#a3");
+        a3.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var a4=document.querySelector("#a4");
+        a4.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var a5=document.querySelector("#a5");
+        a5.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var a6=document.querySelector("#a6");
+        a6.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var a7=document.querySelector("#a7");
+        a7.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var a8=document.querySelector("#a8");
+        a8.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var a9=document.querySelector("#a9");
+        a9.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
     
-})();
+
+var b1=document.querySelector("#b1");
+    b1.onclick=function(){
+            this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+            this.style.border="red 5px solid";
+             
+                }
+    var b2=document.querySelector("#b2");
+    b2.onclick=function(){
+            this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+            this.style.border="red 5px solid";
+             
+                }
+        var b3=document.querySelector("#b3");
+        b3.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var b4=document.querySelector("#b4");
+        b4.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var b5=document.querySelector("#b5");
+        b5.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var b6=document.querySelector("#b6");
+        b6.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var b7=document.querySelector("#b7");
+        b7.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var b8=document.querySelector("#b8");
+        b8.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var b9=document.querySelector("#b9");
+        b9.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+            
+            
+var c1=document.querySelector("#c1");
+    c1.onclick=function(){
+            this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+            this.style.border="red 5px solid";
+             
+                }
+        var c2=document.querySelector("#c2");
+        c2.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+             
+                }
+        var c3=document.querySelector("#c3");
+        c3.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var c4=document.querySelector("#c4");
+        c4.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var c5=document.querySelector("#c5");
+        c5.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var c6=document.querySelector("#c6");
+        c6.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var c7=document.querySelector("#c7");
+        c7.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var c8=document.querySelector("#c8");
+        c8.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var c9=document.querySelector("#c9");
+        c9.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }   
+ })();
 </script>
