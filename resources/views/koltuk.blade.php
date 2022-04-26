@@ -123,6 +123,7 @@
     </tr>
     </thead>
     <tbody>
+        
         <tr>
             @foreach($film as $key => $fil)
                 <td>{{$fil->filmadi}}</td>
@@ -131,6 +132,7 @@
                 <td>{{$fil->saat}}</td>
             @endforeach
         </tr>
+       
     </tbody>
 </tale>
 </body>
