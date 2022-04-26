@@ -106,6 +106,13 @@ border: 2px solid#3e8e41;
   
   
   }
+  .img:focus{
+    border: #b43105 solid 2px;
+    box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.404);
+    
+    
+    
+    }
 img{
   border: #faded5 solid 2px;
   box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.404);
@@ -126,3 +133,4 @@ img{
   box-shadow:0 0 6px 4px rgba(0, 0, 0, 0.404); ;
   border-radius: 5%;
 }
+

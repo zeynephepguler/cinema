@@ -15,10 +15,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function()
 {
   return view('giris');
-})->name('cıkıs');
+});
+Route::get('/dialog', function()
+{
+  return view('dialog');
+});
 
 
 Route::get('/k', function()
 {
   return view('koltuk');
 });
+Route::post('/giris','App\Http\Controllers\kullan@kontrol')->name('kayitkontrol');
+Route::post('/k','App\Http\Controllers\kullan@alma')->name('musteri');
