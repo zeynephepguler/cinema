@@ -1,7 +1,6 @@
 .üst {
   display: table-cell;
   text-align: center;
-  vertical-align: middle;
   height: 100vh;
   width: 100vw;
   background-image: linear-gradient(to right,red,purple,pink);
