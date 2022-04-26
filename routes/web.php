@@ -26,6 +26,19 @@ Route::get('/k', function()
 {
   return view('koltuk');
 });
+
+Route::get('/cikis', function()
+{
+  return view('giris');
+});
+Route::get('/filmekle', function()
+{
+  return view('filmekle');
+});
+Route::get('/biletler', function()
+{
+  return view('biletler');
+});
 Route::post('/giris','App\Http\Controllers\kullan@kontrol')->name('kayitkontrol');
 Route::post('/k','App\Http\Controllers\kullan@alma')->name('musteri');
 Route::get('/k','App\Http\Controllers\kullan@goster')->name('goster');

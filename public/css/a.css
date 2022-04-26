@@ -97,7 +97,6 @@ td.tab2{
 .img:hover{
 border: 2px solid#3e8e41;
 
-
 }
 .img:active{
   border: #b43105 solid 2px;
@@ -134,3 +133,43 @@ img{
   border-radius: 5%;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  text-align: left;
+  height: 50px;
+}
+
+li {
+  display:inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover{
+  background-image: linear-gradient(to right,red,purple,pink);
+}
+
+ul li ul {
+  background-color:#2c3e50;
+  display:none;
+  position:absolute;
+  width:100px
+}
+
+ul li:hover ul{
+  display:block;
+}
+li ul li {
+  display:block; 
+}
