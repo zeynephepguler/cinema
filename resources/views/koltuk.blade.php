@@ -122,15 +122,15 @@
         <th>Saat</th>
     </tr>
     </thead>
-    <tbody>@foreach($film as $key => $fil)
+    <tbody>
         <tr>
-            
+            @foreach($film as $key => $fil)
                 <td>{{$fil->filmadi}}</td>
                 <td>{{$fil->yapimci}}</td>
                 <td>{{$fil->yayinTarihi}}</td>
                 <td>{{$fil->saat}}</td>
-            
-        </tr>@endforeach
+            @endforeach
+        </tr>
     </tbody>
 </tale>
 </body>
