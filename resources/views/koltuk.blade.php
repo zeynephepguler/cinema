@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="{{ asset('css/a.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('css/baglanti.css') }}" type="text/css">
 <body class="üst">
-<div class ="bas"><center><h1>X SiNEMA</h1></center></div>
+<div class ="bas" style="color:white; aligne: center"><h1>X SiNEMA</h1></div>
 <div >
     <center>
         
@@ -113,61 +113,67 @@
 
    
 </div>
-<table>
+
+<table class="tablo">
     <thead>
     <tr>
         <th>Film Adı</th>
         <th>Yapımcı</th>
         <th>Yayın Tarihi</th>
         <th>Saat</th>
+        <th>Resim</th>
+        <th> </th>
     </tr>
     </thead>
     <tbody>
-        
+    @foreach($film as $key => $fil)
         <tr>
-            @foreach($film as $key => $fil)
                 <td>{{$fil->filmadi}}</td>
                 <td>{{$fil->yapimci}}</td>
                 <td>{{$fil->yayinTarihi}}</td>
                 <td>{{$fil->saat}}</td>
-            @endforeach
+                <td>{{$fil->resim}}</td>
+                <td> <button id="{{$key}}">İçeriği Göster</button> </td>
         </tr>
-       
+    @endforeach
     </tbody>
 </tale>
+
 </body>
+
+
 <script type="text/JavaScript">
 (function() {
     var dialog = document.getElementById('koltuksec');
-    document.getElementById('show').onclick = function() {
+    document.getElementById('0').onclick = function() {
         dialog.show();
     };
     var dialog = document.getElementById('koltuksec');
-    document.getElementById('show1').onclick = function() {
+    document.getElementById('1').onclick = function() {
         dialog.show();
     };
     var dialog = document.getElementById('koltuksec');
-    document.getElementById('show2').onclick = function() {
+    document.getElementById('2').onclick = function() {
         dialog.show();
     };
     var dialog = document.getElementById('koltuksec');
-    document.getElementById('show3').onclick = function() {
+    document.getElementById('3').onclick = function() {
         dialog.show();
     };
     var dialog = document.getElementById('koltuksec');
-    document.getElementById('show4').onclick = function() {
+    document.getElementById('4').onclick = function() {
         dialog.show();
     };
     var dialog = document.getElementById('koltuksec');
-    document.getElementById('show5').onclick = function() {
+    document.getElementById('5').onclick = function() {
         dialog.show();
     };
     var dialog = document.getElementById('koltuksec');
-    document.getElementById('show6').onclick = function() {
+    document.getElementById('6').onclick = function() {
         dialog.show();
     };
     var dialog = document.getElementById('koltuksec');
-    document.getElementById('show7').onclick = function() {
+    document.getElementById('7').onclick = function() {
         dialog.show();
     };
     document.getElementById('hide').onclick = function() {
