@@ -120,33 +120,30 @@
 </dialog></form>
 </center>
 
-   
-</div>
-
-<table class="tablo">
-    <thead>
-    <tr>
-        <th>Film Adı</th>
-        <th>Yapımcı</th>
-        <th>Yayın Tarihi</th>
-        <th>Saat</th>
-        <th>Resim</th>
-        <th> </th>
-    </tr>
-    </thead>
-    <tbody>
-    @foreach($film as $key => $fil)
-        <tr>
-                <td name="film[]" >{{$fil->filmadi}}</td>
-                <td name="film[]">{{$fil->yapimci}}</td>
-                <td name="film[]">{{$fil->yayinTarihi}}</td>
-                <td name="film[]">{{$fil->saat}}</td>
-                <td name="film[]">{{$fil->resim}}</td>
-                <td> <button id="{{$key}}">İçeriği Göster</button> </td>
+ 
+<center>
+<table>
+    <tr><td>
+        <table>
+        @foreach($film as $key => $fil)
+            <tr><th>filmler</th><th>saatler</th></tr>
+    
+            <tr><td name="film[]"><img src="{{$fil->resim}}" height="300px" width="200px"></td><td>
+           <div class="bilgi">
+                <h4>{{$fil->filmadi}}</h4>
+                <h4>{{$fil->saat}}</h4>
+                <p>{{$fil->yayinTarihi}}</p>
+                <p>{{$fil->yapimci}}</p>
+                <p>Senarist Yiğit Güralp</p>
+                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
+                <button id="{{$key}}">İçeriği Göster</button>
+            </div></td>
         </tr>
-    @endforeach
-    </tbody>
-</tale>
+        @endforeach
+        
+
+                </table>
+</table>
 
 </body>
 
