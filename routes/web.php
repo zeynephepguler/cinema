@@ -28,3 +28,5 @@ Route::get('/k', function()
 });
 Route::post('/giris','App\Http\Controllers\kullan@kontrol')->name('kayitkontrol');
 Route::post('/k','App\Http\Controllers\kullan@alma')->name('musteri');
+Route::get('/k','App\Http\Controllers\kullan@goster')->name('goster');
+

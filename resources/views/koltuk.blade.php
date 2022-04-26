@@ -78,7 +78,7 @@
     <table>
     
 
-         <form action="" method="post" action="{{route('musteri')}}">
+         <form action="" method="post" >
              @csrf
          <tr><input type="text" placeholder="filmadı" name="filmid"></tr>
     <tr> <td> salon no: </td><th> <input type="text" name="salon" value=""> </th></tr>
@@ -128,11 +128,11 @@
     <tbody>
     @foreach($film as $key => $fil)
         <tr>
-                <td>{{$fil->filmadi}}</td>
-                <td>{{$fil->yapimci}}</td>
-                <td>{{$fil->yayinTarihi}}</td>
-                <td>{{$fil->saat}}</td>
-                <td>{{$fil->resim}}</td>
+                <td name="film[]" >{{$fil->filmadi}}</td>
+                <td name="film[]">{{$fil->yapimci}}</td>
+                <td name="film[]">{{$fil->yayinTarihi}}</td>
+                <td name="film[]">{{$fil->saat}}</td>
+                <td name="film[]">{{$fil->resim}}</td>
                 <td> <button id="{{$key}}">İçeriği Göster</button> </td>
         </tr>
     @endforeach

@@ -8,6 +8,7 @@ use Validator, Input, Redirect;
 use App\Models\admin;
 use App\Models\musteri;
 use App\Models\bilet;
+use App\Models\film;
 
 
 class kullan extends Controller
@@ -59,5 +60,11 @@ class kullan extends Controller
       return back();
 
 
+    }
+    public function goster()
+    {
+       
+       $film=DB::table('films')->get();            
+       return view('koltuk',['film'=> $film]);
     }
 }
