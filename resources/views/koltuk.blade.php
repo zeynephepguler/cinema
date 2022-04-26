@@ -1,4 +1,3 @@
-
 <link rel="stylesheet" href="{{ asset('css/a.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('css/baglanti.css') }}" type="text/css">
 <body class="üst">
@@ -128,17 +127,17 @@
         @foreach($film as $key => $fil)
             <tr><th>filmler</th><th>saatler</th></tr>
     
-            <tr><td name="film[]"><img src="{{$fil->resim}}" height="300px" width="200px"></td>
-            <td name="film[]">
-                <div class="bilgi">
-                        <h4>{{$fil->filmadi}}</h4>
-                        <h4>{{$fil->saat}}</h4>
-                        <p>{{$fil->yayinTarihi}}</p>
-                        <p>{{$fil->yapimci}}</p>
-                        
-                        <button id="{{$key}}">İçeriği Göster</button>
-                </div></td>
-                </tr>
+            <tr><td name="film[]"><img src="{{$fil->resim}}" height="300px" width="200px"></td><td>
+           <div class="bilgi">
+                <h4>{{$fil->filmadi}}</h4>
+                <h4>{{$fil->saat}}</h4>
+                <p>{{$fil->yayinTarihi}}</p>
+                <p>{{$fil->yapimci}}</p>
+                <p>Senarist Yiğit Güralp</p>
+                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
+                <button id="{{$key}}">İçeriği Göster</button>
+            </div></td>
+        </tr>
         @endforeach
         
 
@@ -187,7 +186,11 @@
     };
    
    
- 
+    function myFunction() {
+    document.getElementById("k")
+    this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+            this.style.border="red 5px solid";
+}
 var a1=document.querySelector("#a1");
 
     a1.onclick=function(){
