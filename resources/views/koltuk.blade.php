@@ -29,20 +29,20 @@
 <td><button class="button" id="a2" height="50px" width="50px" >A2</td>
 <td><button class="button" id="a3" height="50px" width="50px" >A3</td>
 <td><button class="button" id="a4" height="50px" width="50px" >A4</td>
-<td><button class="button" id="a4" height="50px" width="50px" >A5</td>
-<td><button class="button" id="a5" height="50px" width="50px" >A6</td>
-<td><button class="button" id="a6" height="50px" width="50px" >A7</td>
-<td><button class="button" id="a7" height="50px" width="50px" >A8</td>
-<td><button class="button" id="a8" height="50px" width="50px" >A9</td>
-<td><button class="button" id="a9" height="50px" width="50px" >A10</td>
+<td><button class="button" id="a5" height="50px" width="50px" >A5</td>
+<td><button class="button" id="a6" height="50px" width="50px" >A6</td>
+<td><button class="button" id="a7" height="50px" width="50px" >A7</td>
+<td><button class="button" id="a8" height="50px" width="50px" >A8</td>
+<td><button class="button" id="a9" height="50px" width="50px" >A9</td>
+<td><button class="button" id="a10" height="50px" width="50px" >A10</td>
 
 </tr>
 
 <tr>
-<td><h1> B</h1></td><td><button class="button" id="a1" height="50px" width="50px" select" value="a1" name="koltuk">B1</td>
-<td><button class="button" id="a2" height="50px" width="50px" onclick="style="background: black"">B2</td>
-<td><button class="button" id="a3" height="50px" width="50px" >B3</td>
-<td><button class="button" id="a4" height="50px" width="50px" >B4</td>
+<td><h1> B</h1></td><td><button class="button" id="b1" height="50px" width="50px" select" value="a1" name="koltuk">B1</td>
+<td><button class="button" id="b2" height="50px" width="50px" onclick="style="background: black"">B2</td>
+<td><button class="button" id="b3" height="50px" width="50px" >B3</td>
+<td><button class="button" id="b4" height="50px" width="50px" >B4</td>
 <td><button class="button" id="a4" height="50px" width="50px" >B5</td>
 <td><button class="button" id="a5" height="50px" width="50px" >B6</td>
 <td><button class="button" id="a6" height="50px" width="50px" >B7</td>
