@@ -22,3 +22,4 @@ Route::get('/k', function()
 {
   return view('koltuk');
 });
+ Route::get('/k','App\Http\Controllers\kullan@goster')->name('goster');

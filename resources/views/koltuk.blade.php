@@ -76,114 +76,28 @@
 </dialog>
 </center>
 
-    <center>
-<table>
-    <tr><td>
-        <table>
-            <tr><th>filmler</th><th>saatler</th></tr>
-    
-            <tr><td><img src="{{asset('ayla.jpg')}}" height="300px" width="200px"></td><td>
-           <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show">İçeriği Göster</button>
-            </div>
-                
-
-
-
-</td>
-
-    
-        </tr>
-        <tr>
-            <td><img src="{{asset('bisi.jpg')}}" height="300px" width="200px"></td>
-            </td><td>  <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show1">İçeriği Göster</button>
-            </div></td>
-            </tr><tr><td><img src="{{asset('canakkale.jpg')}}" height="300px" width="200px"></td>
-            </td><td>  <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show2">İçeriği Göster</button>
-            </div></td>
-            </tr><tr><td><img src="{{asset('convik.jpg')}}" height="300px" width="200px"></td>
-            </td><td>  <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show3">İçeriği Göster</button>
-            </div></td>
-
-                </table></td><td><table>
-                <tr><th>filmler</th><th>saatler</th></tr>
-    
-                <tr><td><img src="{{asset('dilberay.jpg')}}" height="300px" width="200px">
-                </td><td>  <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show4">İçeriği Göster</button>
-            </div></td>
-
-    
-                </tr>
-                <tr><td><img src="{{asset('gonul.jpg')}}" height="300px" width="200px"></td>
-                </td><td> <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show5">İçeriği Göster</button>
-            </div></td>
-                </tr><tr><td><img src="{{asset('hobbit.jpg')}}" height="300px" width="200px"></td>
-                </td><td>  <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show6">İçeriği Göster</button>
-            </div></td>
-                </tr><tr><td><img src="{{asset('joker.jpg')}}" height="300px" width="200px"></td>
-                </td><td>  <div class="bilgi">
-                <h4>27 Ekim 2017 Sinemada / 2s 4dk / Dram, Savaş filmi</h4>
-                <p>Yeniden vizyona giriş tarihi: 15 Haziran 2018</p>
-                <p>Yönetmen Can Ulkay</p>
-                <p>Senarist Yiğit Güralp</p>
-                <p>Oyuncular: İsmail Hacıoğlu, Çetin Tekindor, Kim Seol</p>
-                <button id="show7">İçeriği Göster</button>
-            </div></td>
-
-                    </td></tr>
-</table>
-
-
-<div >
-     
-    
    
-    
-
 </div>
-</center>
-</div>
+<table>
+    <thead>
+    <tr>
+        <th>Film Adı</th>
+        <th>Yapımcı</th>
+        <th>Yayın Tarihi</th>
+        <th>Saat</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            @foreach($film as $key => $fil)
+                <td>{{$fil->filmadi}}</td>
+                <td>{{$fil->yapimci}}</td>
+                <td>{{$fil->yayinTarihi}}</td>
+                <td>{{$fil->saat}}</td>
+            @endforeach
+        </tr>
+    </tbody>
+</tale>
 </body>
 <script type="text/JavaScript">
 (function() {
