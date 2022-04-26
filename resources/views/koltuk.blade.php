@@ -2,7 +2,17 @@
 <link rel="stylesheet" href="{{ asset('css/a.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('css/baglanti.css') }}" type="text/css">
 <body class="üst">
-<div class ="bas" style="color:white; aligne: center"><h1>X SiNEMA</h1></div>
+
+<div>
+    <ul>
+    <li><a href="#"><b> X-CİNEMA SALONU </b></a></li>
+    <li><a href="/k">Ana Sayfa</a></li>
+    <li><a href="/biletler">Biletler</a></li>
+    <li><a href="/filmekle">Film Ekle</a></li>
+    <li><a href="/cikis">Çıkış</a></li> 
+    </ul>
+</div>
+
 <div >
     <center>
         
@@ -26,53 +36,52 @@
 <tr >
 <td><h1> A</h1></td>
 <td><button class="button" id="a1" height="50px" width="50px" value="a1" name="koltuk">A1</td>
-<td><button class="button" id="a2" height="50px" width="50px" >A2</td>
-<td><button class="button" id="a3" height="50px" width="50px" >A3</td>
-<td><button class="button" id="a4" height="50px" width="50px" >A4</td>
-<td><button class="button" id="a5" height="50px" width="50px" >A5</td>
-<td><button class="button" id="a6" height="50px" width="50px" >A6</td>
-<td><button class="button" id="a7" height="50px" width="50px" >A7</td>
-<td><button class="button" id="a8" height="50px" width="50px" >A8</td>
-<td><button class="button" id="a9" height="50px" width="50px" >A9</td>
-<td><button class="button" id="a10" height="50px" width="50px" >A10</td>
-
+<td><button class="button" id="a2" height="50px" width="50px" value="a2">A2</td>
+<td><button class="button" id="a3" height="50px" width="50px" value="a3">A3</td>
+<td><button class="button" id="a4" height="50px" width="50px" value="a4">A4</td>
+<td><button class="button" id="a5" height="50px" width="50px" value="a5">A5</td>
+<td><button class="button" id="a6" height="50px" width="50px" value="a6">A6</td>
+<td><button class="button" id="a7" height="50px" width="50px" value="a7">A7</td>
+<td><button class="button" id="a8" height="50px" width="50px" value="a8">A8</td>
+<td><button class="button" id="a9" height="50px" width="50px" value="a9">A9</td>
+<td><button class="button" id="a10" height="50px" width="50px" value="a10">A10</td>
 </tr>
 
 <tr>
-<td><h1> B</h1></td><td><button class="button" id="b1" height="50px" width="50px" select" value="a1" name="koltuk">B1</td>
-<td><button class="button" id="b2" height="50px" width="50px" onclick="style="background: black"">B2</td>
-<td><button class="button" id="b3" height="50px" width="50px" >B3</td>
-<td><button class="button" id="b4" height="50px" width="50px" >B4</td>
-<td><button class="button" id="a4" height="50px" width="50px" >B5</td>
-<td><button class="button" id="a5" height="50px" width="50px" >B6</td>
-<td><button class="button" id="a6" height="50px" width="50px" >B7</td>
-<td><button class="button" id="a7" height="50px" width="50px" >B8</td>
-<td><button class="button" id="a8" height="50px" width="50px" >B9</td>
-<td><button class="button" id="a9" height="50px" width="50px" >B10</td>
+<td><h1> B</h1></td><td><button class="button" id="b1" height="50px" width="50px" select" value="b1" name="koltuk">B1</td>
+<td><button class="button" id="b2" height="50px" width="50px" value="b2" onclick="style="background: black"">B2</td>
+<td><button class="button" id="b3" height="50px" width="50px" value="b3">B3</td>
+<td><button class="button" id="b4" height="50px" width="50px" value="b42">B4</td>
+<td><button class="button" id="b5" height="50px" width="50px" value="b5">B5</td>
+<td><button class="button" id="b6" height="50px" width="50px" value="b6">B6</td>
+<td><button class="button" id="b7" height="50px" width="50px" value="b7">B7</td>
+<td><button class="button" id="b8" height="50px" width="50px" value="b8">B8</td>
+<td><button class="button" id="b9" height="50px" width="50px" value="b9">B9</td>
+<td><button class="button" id="b10" height="50px" width="50px" value="b10">B10</td>
 <tr>
-<td><h1> C</h1></td><td><button class="button" id="a1" height="50px" width="50px" select" value="a1" name="koltuk">C1</td>
-<td><button class="button" id="a2" height="50px" width="50px" onclick="style="background: black"">C2</td>
-<td><button class="button" id="a3" height="50px" width="50px" >C3</td>
-<td><button class="button" id="a4" height="50px" width="50px" >C4</td>
-<td><button class="button" id="a4" height="50px" width="50px" >C5</td>
-<td><button class="button" id="a5" height="50px" width="50px" >C6</td>
-<td><button class="button" id="a6" height="50px" width="50px" >C7</td>
-<td><button class="button" id="a7" height="50px" width="50px" >C8</td>
-<td><button class="button" id="a8" height="50px" width="50px" >C9</td>
-<td><button class="button" id="a9" height="50px" width="50px" >C10</td>
+<td><h1> C</h1></td><td><button class="button" id="c1" height="50px" width="50px" select" value="c1" name="koltuk">C1</td>
+<td><button class="button" id="c2" height="50px" width="50px" value="c2" onclick="style="background: black"">C2</td>
+<td><button class="button" id="c3" height="50px" width="50px" value="c3">C3</td>
+<td><button class="button" id="c4" height="50px" width="50px" value="c4">C4</td>
+<td><button class="button" id="c5" height="50px" width="50px" value="c5">C5</td>
+<td><button class="button" id="c6" height="50px" width="50px" value="c6">C6</td>
+<td><button class="button" id="c7" height="50px" width="50px" value="c7">C7</td>
+<td><button class="button" id="c8" height="50px" width="50px" value="c8">C8</td>
+<td><button class="button" id="c9" height="50px" width="50px" value="c9">C9</td>
+<td><button class="button" id="c10" height="50px" width="50px" value="c10">C10</td>
 </tr>
 <tr>
 
-<td><h1> D</h1></td><td><button class="button" id="a1" height="50px" width="50px" select" value="a1" name="koltuk">D1</td>
-<td><button class="button" id="a2" height="50px" width="50px" onclick="style="background: black"">D2</td>
-<td><button class="button" id="a3" height="50px" width="50px" >D3</td>
-<td><button class="button" id="a4" height="50px" width="50px" >D4</td>
-<td><button class="button" id="a4" height="50px" width="50px" >D5</td>
-<td><button class="button" id="a5" height="50px" width="50px" >D6</td>
-<td><button class="button" id="a6" height="50px" width="50px" >D7</td>
-<td><button class="button" id="a7" height="50px" width="50px" >D8</td>
-<td><button class="button" id="a8" height="50px" width="50px" >D9</td>
-<td><button class="button" id="a9" height="50px" width="50px" >D10</td>
+<td><h1> D</h1></td><td><button class="button" id="d1" height="50px" width="50px" select" value="d1" name="koltuk">D1</td>
+<td><button class="button" id="d2" height="50px" width="50px" value="d2" onclick="style="background: black"">D2</td>
+<td><button class="button" id="d3" height="50px" width="50px" value="d3">D3</td>
+<td><button class="button" id="d4" height="50px" width="50px" value="d4">D4</td>
+<td><button class="button" id="d5" height="50px" width="50px" value="d5">D5</td>
+<td><button class="button" id="d6" height="50px" width="50px" value="d6">D6</td>
+<td><button class="button" id="d7" height="50px" width="50px" value="d7">D7</td>
+<td><button class="button" id="d8" height="50px" width="50px" value="d8">D8</td>
+<td><button class="button" id="d9" height="50px" width="50px" value="d9">D9</td>
+<td><button class="button" id="d10" height="50px" width="50px" value="d10">D10</td>
 </tr>
 
     <table>
@@ -241,6 +250,12 @@ var a1=document.querySelector("#a1");
                 this.style.border="red 5px solid";
                 
                 }
+        var a9=document.querySelector("#a10");
+        a10.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
     
 
 var b1=document.querySelector("#b1");
@@ -297,7 +312,12 @@ var b1=document.querySelector("#b1");
                 this.style.border="red 5px solid";
                 
                 }
-            
+        var b9=document.querySelector("#b10");
+        b10.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }    
             
 var c1=document.querySelector("#c1");
     c1.onclick=function(){
@@ -352,6 +372,74 @@ var c1=document.querySelector("#c1");
                 this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
                 this.style.border="red 5px solid";
                 
-                }   
+                }  
+                var c10=document.querySelector("#c10");
+        c10.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                } 
+
+
+                var d1=document.querySelector("#d1");
+    d1.onclick=function(){
+            this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+            this.style.border="red 5px solid";
+             
+                }
+        var d2=document.querySelector("#d2");
+        d2.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+             
+                }
+        var d3=document.querySelector("#d3");
+        d3.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var d4=document.querySelector("#d4");
+        d4.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var d5=document.querySelector("#d5");
+        d5.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var d6=document.querySelector("#d6");
+        d6.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var d7=document.querySelector("#d7");
+        d7.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var d8=document.querySelector("#d8");
+        d8.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }
+        var d9=document.querySelector("#d9");
+        d9.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                }  
+                var d10=document.querySelector("#d10");
+        d10.onclick=function(){
+                this.style.background="red 5px";// tıklanan butonun zemin rengini kırmızı yap
+                this.style.border="red 5px solid";
+                
+                } 
  })();
 </script>
